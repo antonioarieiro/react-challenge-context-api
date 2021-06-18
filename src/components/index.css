@@ -1,0 +1,42 @@
+.nav-main {
+   justify-content: flex-end;
+   display: flex;
+   font-size: 15px;
+   margin: 10px;
+   color: white;
+   background-color:#33001a; 
+}
+.nav-main p {
+    display: flex;
+    padding: 15px;
+}
+
+.nav-main h4 {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    padding: 15px;
+}
+
+.nav-main p:hover {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.get-info {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.get-info button {
+    width: 100px;
+    border-radius: 3px;
+    margin: 10px ;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    
+}
