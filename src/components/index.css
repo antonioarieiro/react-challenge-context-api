@@ -3,12 +3,14 @@
    display: flex;
    font-size: 15px;
    margin: 10px;
-   color: white;
-   background-color:#33001a; 
 }
+
 .nav-main p {
-    display: flex;
+    width: 50px;
+    justify-content: flex-end;
     padding: 15px;
+    display: flex;
+    margin: auto;
 }
 
 .nav-main h4 {
@@ -20,7 +22,7 @@
 
 .nav-main p:hover {
     font-style: italic;
-    font-size: 20px;
+    font-size:18px;
 }
 
 .get-info {
@@ -38,5 +40,29 @@
 .box {
     display: flex;
     justify-content: center;
+    flex-direction: column; 
+}
+
+.box img {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin:10px auto;
     
+}
+
+.box h4, p {
+    text-align: center;
+    width: 300px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin: 10px auto;
+}
+
+.person-info {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }

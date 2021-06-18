@@ -1,14 +1,14 @@
-import React, { useContext,useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import gitContext from '../context/GitContext';
+import { BsFillPersonFill, BsFillPeopleFill, BsFillTerminalFill } from "react-icons/bs";
 import './index.css'
 
 function PersonInfo () {
-    const { name, userName, followers, following, image, repos, getInfos,setValues} = useContext(gitContext);
+    const { name, userName, bio, followers, image, repos, getInfos} = useContext(gitContext);
 
     useEffect(() => {
         getInfos();
-        console.log(name)
-    })
+    },[getInfos])
     return(
         <main>
             <nav>
@@ -21,15 +21,20 @@ function PersonInfo () {
             <section>
                 <div className="get-info">
                     <form>
-                        <input placeholder="Digite o Usuario" />
+                        <input placeholder="Digite o Usuario" type="text" />
                         <button type="submit">Procurar</button>
                     </form>
                 </div>
             </section>
             <section>
                 <div className="box">
-                    <img src="#" alt="userAvatar" />
-                    <h5>Nome{name}</h5>
+                    <h4><BsFillPersonFill />: {name}</h4>
+                    <img src={image} alt="userAvatar" />
+                    <p>{bio}</p>
+                    <div className="person-info">
+                        <p><BsFillPeopleFill />: <b>Seguidores:</b> {followers}</p>
+                        <p><BsFillTerminalFill/> <b>Resositories:</b> {repos}</p>
+                    </div>
                 </div>
             </section>
         </main>
