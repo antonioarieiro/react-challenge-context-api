@@ -46,11 +46,11 @@
 
 ![CONTEXT](https://img.shields.io/badge/CONTEXT-000000?style=flat&logo=context)
 
-![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
+![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html5)
 
 ![ROUTER](http://img.shields.io/badge/ROUTER-000000?style=flat&logo=router)
 
-![CSS](http://img.shields.io/badge/CSS-000000?style=flat&logo=css)
+![CSS](http://img.shields.io/badge/CSS-000000?style=flat&logo=css3)
 
 
 ---
