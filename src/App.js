@@ -5,7 +5,6 @@ import Login from './components/login';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Repositories from './components/repositories';
 import Followers from './components/followers';
-import Following from './components/following';
 
 function App() {
   return (

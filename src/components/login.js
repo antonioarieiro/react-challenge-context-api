@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import gitContext from '../context/GitContext';
 import { Link } from 'react-router-dom';
 import { BsFillForwardFill } from "react-icons/bs";
