@@ -1,4 +1,8 @@
 .nav-main {
+   width: 0hv;
+   height: 100hv;
+   text-decoration: none;
+   color: white;
    justify-content: flex-end;
    display: flex;
    font-size: 15px;
@@ -6,6 +10,7 @@
 }
 
 .nav-main p {
+    text-decoration: none;
     width: 50px;
     justify-content: flex-end;
     padding: 15px;
@@ -21,23 +26,15 @@
 }
 
 .nav-main p:hover {
-    font-style: italic;
-    font-size:18px;
+    color:yellow;
 }
 
-.get-info {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-
-.get-info button {
-    width: 100px;
-    border-radius: 3px;
-    margin: 10px ;
+.nav-main a:hover {
+    color: yellow;
 }
 
 .box {
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -45,13 +42,15 @@
 
 .box img {
     display: flex;
-    width: 300px;
+    width: 100px;
     justify-content: center;
     margin:10px auto;
+    border-radius: 200px;
     
 }
 
-.box h4, p {
+.box h1 {
+    font-size: 30px;
     text-align: center;
     width: 300px;
     justify-content: center;
@@ -60,9 +59,93 @@
     margin: 10px auto;
 }
 
-.person-info {
-    width: 300px;
+.box p {
     display: flex;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.person-info {
+    text-align: center;
+    background-color: #404040;
+    width: 350px;
+    display: flex;
+    justify-content: center;
     flex-direction: row;
     margin: auto;
+}
+
+.person-info h3 {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.person-info p {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px; 
+}
+
+.repos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.repos-info button {
+    text-decoration: none;
+    background-color: #e6e600;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    width: 60px;
+}
+
+.repos-info a {
+    text-decoration: none;
+}
+
+.follows {
+  color: white;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.follow-box {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.follows p {
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    margin: 10px auto;
+    color: white;
+}
+
+.follows img {
+    border-radius: 200px;
+    justify-content: center;
+    margin: 25px auto;
+    display: flex;
+    width: 150px;
 }

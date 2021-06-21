@@ -1,0 +1,49 @@
+body {
+    background-color: #262626;
+}
+
+.box-main {
+    margin:30vh auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-main a {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-style:inherit;
+}
+
+.box-main input {
+    text-align: center;
+    margin: 15px auto;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.box-main img {
+    margin: 15px auto;
+    width: 150px;
+}
+
+.box-main button {
+    background-color: #e6e600;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    width: 260px;
+}
+
+.box-main p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}

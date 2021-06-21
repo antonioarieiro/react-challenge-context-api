@@ -1,41 +1,52 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import gitContext from '../context/GitContext';
-import { BsFillPersonFill, BsFillPeopleFill, BsFillTerminalFill } from "react-icons/bs";
-import './index.css'
+import { Link } from 'react-router-dom'
+import { BsFillPersonFill } from "react-icons/bs";
+import { GrLogin } from "react-icons/gr";
+import './index.css';
 
 function PersonInfo () {
-    const { name, userName, bio, followers, image, repos, getInfos} = useContext(gitContext);
-
-    useEffect(() => {
-        getInfos();
-    },[getInfos])
+    const {userName, login, bio, followers, image, following, erro, repos, loadingAPI, fetchRepos, fetchFollowersName } = useContext(gitContext);
     return(
         <main>
+            {
+                loadingAPI ? <h1 style={{color: "white"}} className="person-info"> Carregando ...</h1>
+                : ''
+            }
             <nav>
                 <div className="nav-main">
-                    <h4>Home</h4>
-                    <p>Login</p>
-                    <p>Sair</p>
+                  <h4>#{login}</h4>
+                  <div className="nav-main">
+                      {
+                          repos >= 1 ? 
+                          <p onClick={fetchRepos}> <Link to="/Repositories" className="nav-main">Repositories</Link></p>
+                          : ''
+                      }
+
+                      {
+                          followers >=1 ?
+                          <p onClick={fetchFollowersName}><Link to="/Followers" className="nav-main">Seguidores</Link></p>
+                          : ''
+                      }              
+                   </div>
+                  <p><Link to="/" className="nav-main">Sair<GrLogin/></Link></p>
                 </div>
             </nav>
             <section>
-                <div className="get-info">
-                    <form>
-                        <input placeholder="Digite o Usuario" type="text" />
-                        <button type="submit">Procurar</button>
-                    </form>
-                </div>
-            </section>
-            <section>
-                <div className="box">
-                    <h4><BsFillPersonFill />: {name}</h4>
-                    <img src={image} alt="userAvatar" />
-                    <p>{bio}</p>
-                    <div className="person-info">
-                        <p><BsFillPeopleFill />: <b>Seguidores:</b> {followers}</p>
-                        <p><BsFillTerminalFill/> <b>Resositories:</b> {repos}</p>
+                {
+                    erro ?(<h4 className="box">{erro}</h4>)
+                    :
+                    <div className="box">
+                        <img src={image} alt="userAvatar" />
+                        <h1><BsFillPersonFill />: {userName}</h1>
+                        <p>{bio}</p>
+                        <div className="person-info">
+                            <h3>{followers}<p>Seguidores</p></h3>
+                            <h3>{following}<p>Seguindo</p></h3>
+                            <h3>{repos}<p>Repositories</p></h3>
+                        </div>
                     </div>
-                </div>
+                }
             </section>
         </main>
         
