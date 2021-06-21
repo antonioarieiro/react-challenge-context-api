@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+##### Hi, I'm Antonio Arieiro I'm Dev Jr. :boy: : 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">React Context API Challenge</h1>
+🚀 Descrição do Projeto
+<p align="center">:open_file_folder: Projeto Utilizando Js | React | Route | Contentfull API</p>
+  <br>
+  <br>
+ <p align="center">
+ <a href="#instalacao">Instalação</a> • 
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#funcionalidades">Funcionalidades</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autor">Autor</a>
+</p>
+  <br>
+  <p id="objetivo"> O projeto Consiste em uma Aplicação web, que consome a API do github e traz informaçẽs do usuario </p>
+  <br>
+  <hr>
+  <p id="func">
 
-## Available Scripts
+<p id="funcionalidades">  Funcionalidades :
+	<ul>
+		<li> Navegação </li>
+		<li> Consultar usuario por nome</li>
+		<li> Consultar seguidores  </li>
+    <li> Consultar repositorios  </li>
+	</ul>
+</p>
 
-In the project directory, you can run:
+<hr>
+  <p id="instalacao">
+	🔧 <b>Instalação</b>
+	<p>Primeiro Clone o Proejto </p>
+	<p>Depois em seu terminal va ate a pasta content_test </p>
+	<p>Apos isso instale as Dependencias do Projeto</p>
+	<p><b>npm install</b></p>
+	<p>Apos isso inicie </p>
+	<p><b>npm start</b></p>
+  </p>
+  <br>
+<p id="tecnologias">  📦 Desenvolvimento </p>
 
-### `npm start`
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![REACT](http://img.shields.io/badge/REACT-000000?style=flat&logo=react)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![CONTEXT](https://img.shields.io/badge/CONTEXT-000000?style=flat&logo=context)
 
-### `npm test`
+![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![ROUTER](http://img.shields.io/badge/ROUTER-000000?style=flat&logo=router)
 
-### `npm run build`
+![CSS](http://img.shields.io/badge/CSS-000000?style=flat&logo=css)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h4 align="center"> 
+	🚧  Projeto ainda deve ser Implementado  🚀 Em construção...  🚧
+</h4>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Implementation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [X] Consultar usuario pelo nome
+- [X] Navegação atraves dos dados do usuario
+- [X] Tela de perfil
+- [X] Tela de Repositorios
+- [X] Tela de Seguidores
+- #####################################################
+- 
+Em Desenvolvimento
+- [ ] Tela de Seguindo
+- [ ] Validação de Cadastro
+- [ ] Mudar estrutura para Try Catch
+- [ ] Botao de Favoritar 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
+<p id="autor"></p>
+ ✒️ Autor
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-arieiro-50a9301b2/)
 
-## Learn More
+--
+⌨️ com ❤️ por (https://github.com/antonioarieiro) 😊
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-🎓:computer: student computer science from UFT - Palmas-TO
+<br>
+-🎓:computer: software engineer student from TRYBE -T8
