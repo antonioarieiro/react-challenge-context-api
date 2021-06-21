@@ -6,12 +6,9 @@ import './index.css';
 
 function Repositories () {
     const { repoName, login, loadingAPI} = useContext(gitContext);
-    return (
+    return loadingAPI ? <h1 style={{color: "white"}} className="person-info"> Carregando ...</h1> 
+    :(
         <div className="repos">
-             {
-                loadingAPI ? <h1 style={{color: "white"}} className="person-info"> Carregando ...</h1>
-                : ''
-            }
              <nav>
                 <div className="nav-main">
                   <h4>#{login}</h4>
