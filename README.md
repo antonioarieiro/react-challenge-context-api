@@ -48,7 +48,7 @@
 
 ![HTML](https://img.shields.io/badge/-HTML-000000?style=flat&logo=html5)
 
-![ROUTER](http://img.shields.io/badge/ROUTER-000000?style=flat&logo=router)
+![ROUTER](https://img.shields.io/badge/ROUTER-000000?style=flat&logo=reactrouter)
 
 ![CSS](http://img.shields.io/badge/CSS-000000?style=flat&logo=css3)
 
