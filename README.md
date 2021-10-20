@@ -71,7 +71,6 @@
 - 
 Em Desenvolvimento
 - [ ] Tela de Seguindo
-- [ ] Validação de Cadastro
 - [ ] Mudar estrutura para Try Catch
 - [ ] Botao de Favoritar 
 
